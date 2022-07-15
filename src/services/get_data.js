@@ -5,7 +5,7 @@ const SERVER_URL = `https://api.nomics.com/v1/currencies/ticker?key=${API_KEY}&i
 export const get_data = async (setState) => {
     const api = await fetch(SERVER_URL, {
         header: {
-            'Access-Control-Allow-Origin': 'https://frolicking-pudding-c179e7.netlify.app'
+            'Access-Control-Allow-Origin': '*'
         }
     });
     try {
