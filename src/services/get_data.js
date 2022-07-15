@@ -4,14 +4,16 @@ const SERVER_URL = `https://api.nomics.com/v1/currencies/ticker?key=${API_KEY}&i
 
 export const get_data = async (setState) => {
     const api = await fetch(SERVER_URL, {
-        mode: 'no-cors',
+        mode: 'cors',
         header: {
             'Access-Control-Allow-Origin': '*',
         }
     });
+    console.log(api);
     try {
         const data_parsed = await api.json();
         setState(data_parsed);
+        console.log(data_parsed);
     } catch (error) {
         console.log(error);
     }
