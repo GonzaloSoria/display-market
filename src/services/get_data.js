@@ -10,8 +10,7 @@ export const get_data = async (setState) => {
                 'Access-Control-Allow-Origin': '*'
             }
         });
-        const data_parsed = await api.json();
-        setState(data_parsed);
+        setState(api);
     } catch (error) {
         console.log(error);
     }
