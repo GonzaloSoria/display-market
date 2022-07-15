@@ -3,7 +3,11 @@ const COINS = ['BTC','ETH','BNB','DAI']; //Usar 4 como preferidas para no romper
 const SERVER_URL = `https://api.nomics.com/v1/currencies/ticker?key=${API_KEY}&ids=${COINS}&convert=ARS`;
 
 export const get_data = async (setState) => {
-    const api = await fetch(SERVER_URL);
+    const api = await fetch(SERVER_URL, {
+        header: {
+            'Access-Control-Allow-Origin': 'ttps://frolicking-pudding-c179e7.netlify.app'
+        }
+    });
     try {
         const data_parsed = await api.json();
         setState(data_parsed);
