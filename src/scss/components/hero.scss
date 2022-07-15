@@ -1,0 +1,18 @@
+@import '../base/vars';
+
+.main-bg {
+    background-image: url('../../assets/main_bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h2 {
+        font-size: $title-size;
+        color: $second-color;
+        font-weight: 700;
+    }
+    p {
+        font-size: $paragraph-size;
+        color: $first-color;
+    }
+}
+

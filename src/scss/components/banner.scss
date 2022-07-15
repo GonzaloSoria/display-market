@@ -1,0 +1,24 @@
+@import '../base/vars';
+
+.banner-container {
+    background-image: url('../../assets/banner_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    p {
+        font-size: $paragraph-size;
+        color: $second-color;
+        font-weight: 700;
+    }
+    a {
+        background: rgb(140,74,250);
+        background: -moz-linear-gradient(90deg, rgba(140,74,250,1) 0%, rgba(90,198,254,1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(140,74,250,1) 0%, rgba(90,198,254,1) 100%);
+        background: linear-gradient(90deg, rgba(140,74,250,1) 0%, rgba(90,198,254,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8c4afa",endColorstr="#5ac6fe",GradientType=1);
+        padding: 20px 50px;
+        color: $second-color;
+        font-size: $paragraph-size;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+}

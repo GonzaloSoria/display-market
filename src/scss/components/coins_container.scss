@@ -1,0 +1,18 @@
+@import '../base/vars';
+
+.coins-container {
+    h2 {
+        font-size: $title-size;
+        font-weight: 700;
+        background: #8C4AFA;
+        background: -webkit-linear-gradient(to right, #8C4AFA 0%, #5AC6FE 100%);
+        background: -moz-linear-gradient(to right, #8C4AFA 0%, #5AC6FE 100%);
+        background: linear-gradient(to right, #8C4AFA 0%, #5AC6FE 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p {
+        font-size: $paragraph-size;
+        color: $first-color;
+    }
+}

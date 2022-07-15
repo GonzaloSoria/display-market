@@ -1,0 +1,21 @@
+@import '../base/vars';
+
+.coin-box {
+    background-color: #16151A;
+    border-radius: 20px;
+    padding: 10px 30px;
+    img {
+        width: 40px;
+    }
+    .data-coin-container {
+        .currency {
+            font-weight: 700;
+            background: #8C4AFA;
+            background: -webkit-linear-gradient(to right, #8C4AFA 0%, #5AC6FE 100%);
+            background: -moz-linear-gradient(to right, #8C4AFA 0%, #5AC6FE 100%);
+            background: linear-gradient(to right, #8C4AFA 0%, #5AC6FE 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            }
+    }
+}

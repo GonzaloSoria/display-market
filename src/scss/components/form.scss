@@ -1,0 +1,43 @@
+@import '../base/vars';
+
+form {
+    background-color: #ffffff;
+    border-radius: 20px;
+    h3 {
+        font-weight: 700;
+    }
+    p {
+        font-size: 20px !important;
+        line-height: 23px;
+    }
+    label {
+        font-weight: 700;
+    }
+    input {
+        background-color: #dedede;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        &:focus {
+            outline: none;
+        }
+    }
+    button {
+        background-color: $button-color;
+        font-size: $paragraph-size;
+        color: $second-color;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        width: 100%;
+    }
+    .error {
+        color: red;
+        font-size: 15px !important;
+        margin-top: 5px;
+    }
+    .form-succes {
+        color: rgb(0, 202, 0);
+        font-size: 15px !important;
+    }
+}

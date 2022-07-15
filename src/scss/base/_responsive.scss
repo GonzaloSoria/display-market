@@ -1,0 +1,14 @@
+@media  (min-width: 1200px) {
+    .main-bg, .coins-container, .nft-container, .banner-container {
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 25px;
+        }
+        .currency, .price {
+            font-size: 18px !important;
+        }
+    }
+    
+}

@@ -1,0 +1,13 @@
+@import '../base/vars';
+
+.footer-container {
+    h2 {
+        font-size: $title-size;
+        font-weight: 700;
+        color: $first-color;
+    }
+    p {
+        font-size: $footer-cr;
+        color: $footer-cr-color;
+    }
+}

@@ -1,0 +1,10 @@
+@import '../base/vars';
+
+header {
+    background-color: #000000;
+    h2 {
+        font-size: $title-size;
+        color: $first-color;
+        font-weight: 700;
+    }
+}
