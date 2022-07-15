@@ -7,7 +7,7 @@ export const get_data = async (setState) => {
         const api = await fetch(SERVER_URL, {
             'mode': 'no-cors',
             'headers': {
-                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Origin': '*'
             }
         });
         const data_parsed = await api.json();
