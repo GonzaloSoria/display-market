@@ -16,7 +16,7 @@ const CoinsContainer = () => {
 
     return (
         <>
-            <div className="container-fluid py-5 mt-0 mt-md-5 coins-container">
+            <section className="container-fluid py-5 mt-0 mt-md-5 coins-container">
                 <div className="container">
                     <div className="d-flex justify-content-start justify-content-md-center align-items-center">
                         <h2 className="text-start text-md-center">Las preferidas de <br className="d-block d-md-none"/>nuestros usuarios</h2>
@@ -29,7 +29,7 @@ const CoinsContainer = () => {
                         <CoinsList coins={coins}/>
                     }
                 </div>
-            </div>
+            </section>
         </>
     );
 };

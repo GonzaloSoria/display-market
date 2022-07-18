@@ -3,7 +3,7 @@ import nft_img from '../assets/nft.jpeg';
 const Nft = () => {
     return (
         <>
-            <div className="container-fluid nft-container py-5">
+            <section className="container-fluid nft-container py-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-6 order-2 order-md-1 mt-5 mt-md-0 text-center">
@@ -17,7 +17,7 @@ const Nft = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 };
