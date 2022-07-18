@@ -6,6 +6,7 @@ export const get_data = async (setState) => {
     const api = await fetch(SERVER_URL, {
         mode: 'no-cors'
     });
+    console.log(api);
     try {
         const data_parsed = await api.json();
         setState(data_parsed);
