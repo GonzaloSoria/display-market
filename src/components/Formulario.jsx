@@ -69,6 +69,7 @@ const Formulario = () => {
                                 name="email" 
                                 placeholder="ejemplo@gmail.com"
                             />
+                            
                             <ErrorMessage name="email" component={() => (
                                 <p className="error mb-0">{errors.email}</p>
                             )}/>

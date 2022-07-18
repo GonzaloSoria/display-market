@@ -9,7 +9,7 @@ const Coin = ({currency, price, image, price_change_24hs}) => {
                 <div>
                     <img src={image} alt={currency} />
                 </div>
-                <div className="w-70 ps-5 py-2 data-coin-container">
+                <div className="ps-5 py-2 data-coin-container">
                     <p className="mb-0 price">{price_ars}</p>
                     <p className="mb-0 currency">{currency}</p>
                     <p className={price_change_24hs > 0 ? 'text-green' : 'text-red'}>{price_ars_changed}%</p>
