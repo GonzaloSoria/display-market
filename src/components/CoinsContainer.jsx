@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { get_data } from "../services/get_data";
+import { get_data } from "../helpers/get_data";
 import PuffLoader from "react-spinners/PuffLoader";
 import CoinsList from "./CoinsList";
 

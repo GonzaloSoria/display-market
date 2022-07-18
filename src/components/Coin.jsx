@@ -1,7 +1,9 @@
+import { convert_currency } from "../helpers/convert_currency";
+
 const Coin = ({currency, price, image, price_change_24hs}) => {
     // Formatear el precio a moneda argentina
-    const price_ars = new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS' }).format(price);
-    const price_ars_changed = new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS' }).format(price_change_24hs);
+    const price_ars = convert_currency(price);
+    const price_ars_changed = convert_currency(price_change_24hs);
 
     return (
         <>
