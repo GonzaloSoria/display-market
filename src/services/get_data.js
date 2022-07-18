@@ -7,7 +7,7 @@ export const get_data = async (setState) => {
         status: 200,
         headers: {
             'Acces-Control-Allow-Headers': 'Content-Type',
-            'Acces-Control-Allow-Origin': '*',
+            'Acces-Control-Allow-Origin': 'https://landing-page-challenge-three.vercel.app/',
             'Acces-Control-Allow-Methods': 'GET',
         }
     });
