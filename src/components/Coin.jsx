@@ -3,7 +3,6 @@ const Coin = ({currency, price, image, price_change_24hs}) => {
     const price_ars = new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS' }).format(price);
     const price_ars_changed = new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS' }).format(price_change_24hs);
 
-
     return (
         <>
             <div className="coin-box d-flex justify-content-start align-items-center px-5 my-3">
