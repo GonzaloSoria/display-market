@@ -11,6 +11,7 @@ const CoinsList = ({coins}) => {
                                 currency={coin.symbol}
                                 price={coin.current_price}
                                 image={coin.image}
+                                price_change_24hs={coin.price_change_percentage_24h}
                                 key={coin.id}
                             />
                         )
