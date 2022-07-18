@@ -6,6 +6,7 @@ export const get_data = async (setState) => {
     try {
         const data_parsed = await api.json();
         setState(data_parsed);
+        console.log(data_parsed);
     } catch (error) {
         console.log(error);
     }
