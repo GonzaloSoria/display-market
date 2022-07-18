@@ -8,9 +8,9 @@ const CoinsList = ({coins}) => {
                     coins.map((coin) => {
                         return(
                             <Coin 
-                                currency={coin.currency}
-                                price={coin.price}
-                                image={coin.logo_url}
+                                currency={coin.symbol}
+                                price={coin.current_price}
+                                image={coin.image}
                                 key={coin.id}
                             />
                         )
